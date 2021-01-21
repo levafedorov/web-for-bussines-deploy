@@ -1,0 +1,526 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form component Should component render 1`] = `
+<form
+  action=""
+  className="contact-form"
+  method=""
+>
+  <div
+    className="sides"
+  >
+    <div
+      className="left-side"
+    >
+      <div
+        className="name-container container null"
+      >
+        <input
+          className="form-input"
+          id="name"
+          name="name"
+          onChange={[Function]}
+          placeholder="Name"
+          type="text"
+        />
+      </div>
+      <div
+        className="phone-container container null"
+      >
+        <input
+          className="form-input"
+          id="phone-number"
+          name="phone"
+          onChange={[Function]}
+          type="tel"
+        />
+      </div>
+    </div>
+    <div
+      className="right-side"
+    >
+      <div
+        className="category-container container"
+      >
+        <select
+          className="form-input"
+          id="category"
+          name="category"
+          onChange={[Function]}
+        >
+          <option
+            key="Fisrt"
+            value="Fisrt"
+          >
+            Fisrt
+          </option>
+          <option
+            key="Second"
+            value="Second"
+          >
+            Second
+          </option>
+          <option
+            key="Third"
+            value="Third"
+          >
+            Third
+          </option>
+        </select>
+      </div>
+      <div
+        className="city-container container"
+      >
+        <select
+          id="city"
+          name="city"
+          onChange={[Function]}
+        >
+          <option
+            key="Praha"
+            value="Praha"
+          >
+            Praha
+          </option>
+          <option
+            key="Brno"
+            value="Brno"
+          >
+            Brno
+          </option>
+          <option
+            key="Plzen"
+            value="Plzen"
+          >
+            Plzen
+          </option>
+          <option
+            key="Ostrava"
+            value="Ostrava"
+          >
+            Ostrava
+          </option>
+          <option
+            key="Olomouc"
+            value="Olomouc"
+          >
+            Olomouc
+          </option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div
+    className="mail-container container null"
+  >
+    <input
+      className="form-input"
+      id="mail"
+      name="mail"
+      onChange={[Function]}
+      placeholder="mail@mail"
+      type="mail"
+    />
+  </div>
+  <div
+    className="message-container container"
+  >
+    <textarea
+      className="form-input"
+      cols="30"
+      id="message"
+      name="message"
+      onChange={[Function]}
+      placeholder="...message"
+      rows="10"
+    />
+  </div>
+</form>
+`;
+
+exports[`Form component Should component render with default props 1`] = `
+<form
+  action=""
+  className="contact-form"
+  method=""
+>
+  <div
+    className="sides"
+  >
+    <div
+      className="left-side"
+    >
+      <div
+        className="name-container container null"
+      >
+        <input
+          className="form-input"
+          id="name"
+          name="name"
+          onChange={[Function]}
+          placeholder="Name"
+          type="text"
+        />
+      </div>
+      <div
+        className="phone-container container null"
+      >
+        <input
+          className="form-input"
+          id="phone-number"
+          name="phone"
+          onChange={[Function]}
+          type="tel"
+        />
+      </div>
+    </div>
+    <div
+      className="right-side"
+    >
+      <div
+        className="category-container container"
+      >
+        <select
+          className="form-input"
+          id="category"
+          name="category"
+          onChange={[Function]}
+        >
+          <option
+            key="First"
+            value="First"
+          >
+            First
+          </option>
+          <option
+            key="Second"
+            value="Second"
+          >
+            Second
+          </option>
+          <option
+            key="Third"
+            value="Third"
+          >
+            Third
+          </option>
+        </select>
+      </div>
+      <div
+        className="city-container container"
+      >
+        <select
+          id="city"
+          name="city"
+          onChange={[Function]}
+        >
+          <option
+            key="Praha"
+            value="Praha"
+          >
+            Praha
+          </option>
+          <option
+            key="Brno"
+            value="Brno"
+          >
+            Brno
+          </option>
+          <option
+            key="Plzen"
+            value="Plzen"
+          >
+            Plzen
+          </option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div
+    className="mail-container container null"
+  >
+    <input
+      className="form-input"
+      id="mail"
+      name="mail"
+      onChange={[Function]}
+      placeholder="mail@mail"
+      type="mail"
+    />
+  </div>
+  <div
+    className="message-container container"
+  >
+    <textarea
+      className="form-input"
+      cols="30"
+      id="message"
+      name="message"
+      onChange={[Function]}
+      placeholder="...message"
+      rows="10"
+    />
+  </div>
+</form>
+`;
+
+exports[`Form component Should component render with error fields 1`] = `
+<form
+  action=""
+  className="contact-form"
+  method=""
+>
+  <div
+    className="sides"
+  >
+    <div
+      className="left-side"
+    >
+      <div
+        className="name-container container error"
+      >
+        <ErrorInForm
+          message="Error here"
+        />
+        <input
+          className="form-input"
+          id="name"
+          name="name"
+          onChange={[Function]}
+          placeholder="Name"
+          type="text"
+        />
+      </div>
+      <div
+        className="phone-container container error"
+      >
+        <ErrorInForm
+          message="Error here"
+        />
+        <input
+          className="form-input"
+          id="phone-number"
+          name="phone"
+          onChange={[Function]}
+          type="tel"
+        />
+      </div>
+    </div>
+    <div
+      className="right-side"
+    >
+      <div
+        className="category-container container"
+      >
+        <select
+          className="form-input"
+          id="category"
+          name="category"
+          onChange={[Function]}
+        >
+          <option
+            key="First"
+            value="First"
+          >
+            First
+          </option>
+          <option
+            key="Second"
+            value="Second"
+          >
+            Second
+          </option>
+          <option
+            key="Third"
+            value="Third"
+          >
+            Third
+          </option>
+        </select>
+      </div>
+      <div
+        className="city-container container"
+      >
+        <select
+          id="city"
+          name="city"
+          onChange={[Function]}
+        >
+          <option
+            key="Praha"
+            value="Praha"
+          >
+            Praha
+          </option>
+          <option
+            key="Brno"
+            value="Brno"
+          >
+            Brno
+          </option>
+          <option
+            key="Plzen"
+            value="Plzen"
+          >
+            Plzen
+          </option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div
+    className="mail-container container error"
+  >
+    <ErrorInForm
+      message="Error here"
+    />
+    <input
+      className="form-input"
+      id="mail"
+      name="mail"
+      onChange={[Function]}
+      placeholder="mail@mail"
+      type="mail"
+    />
+  </div>
+  <div
+    className="message-container container"
+  >
+    <textarea
+      className="form-input"
+      cols="30"
+      id="message"
+      name="message"
+      onChange={[Function]}
+      placeholder="...message"
+      rows="10"
+    />
+  </div>
+</form>
+`;
+
+exports[`Form component Should component render with filled form 1`] = `
+<form
+  action=""
+  className="contact-form"
+  method=""
+>
+  <div
+    className="sides"
+  >
+    <div
+      className="left-side"
+    >
+      <div
+        className="name-container container null"
+      >
+        <input
+          className="form-input"
+          id="name"
+          name="name"
+          onChange={[Function]}
+          placeholder="Name"
+          type="text"
+        />
+      </div>
+      <div
+        className="phone-container container null"
+      >
+        <input
+          className="form-input"
+          id="phone-number"
+          name="phone"
+          onChange={[Function]}
+          type="tel"
+        />
+      </div>
+    </div>
+    <div
+      className="right-side"
+    >
+      <div
+        className="category-container container"
+      >
+        <select
+          className="form-input"
+          id="category"
+          name="category"
+          onChange={[Function]}
+        >
+          <option
+            key="First"
+            value="First"
+          >
+            First
+          </option>
+          <option
+            key="Second"
+            value="Second"
+          >
+            Second
+          </option>
+          <option
+            key="Third"
+            value="Third"
+          >
+            Third
+          </option>
+        </select>
+      </div>
+      <div
+        className="city-container container"
+      >
+        <select
+          id="city"
+          name="city"
+          onChange={[Function]}
+        >
+          <option
+            key="Praha"
+            value="Praha"
+          >
+            Praha
+          </option>
+          <option
+            key="Brno"
+            value="Brno"
+          >
+            Brno
+          </option>
+          <option
+            key="Plzen"
+            value="Plzen"
+          >
+            Plzen
+          </option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div
+    className="mail-container container null"
+  >
+    <input
+      className="form-input"
+      id="mail"
+      name="mail"
+      onChange={[Function]}
+      placeholder="mail@mail"
+      type="mail"
+    />
+  </div>
+  <div
+    className="message-container container"
+  >
+    <textarea
+      className="form-input"
+      cols="30"
+      id="message"
+      name="message"
+      onChange={[Function]}
+      placeholder="...message"
+      rows="10"
+    />
+  </div>
+</form>
+`;

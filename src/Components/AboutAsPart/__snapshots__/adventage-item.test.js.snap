@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdventageItem component Check with def props 1`] = `
+<div
+  className="adventage-item"
+>
+  <div
+    className="item-image"
+    style={
+      Object {
+        "backgroundImage": "url(/photos/default-name.jpg)",
+      }
+    }
+  />
+  <div
+    className="adventage"
+  >
+    default name
+  </div>
+</div>
+`;
+
+exports[`AdventageItem component Check with props 1`] = `
+<div
+  className="adventage-item"
+>
+  <div
+    className="item-image"
+    style={
+      Object {
+        "backgroundImage": "url(/photos/check-prop.jpg)",
+      }
+    }
+  />
+  <div
+    className="adventage"
+  >
+    check prop
+  </div>
+</div>
+`;

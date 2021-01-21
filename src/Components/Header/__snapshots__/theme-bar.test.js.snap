@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should ThemeBar render 1`] = `
+<div
+  className="theme-bar"
+>
+  <Button
+    class="rounded small "
+    fn={[Function]}
+    theme="default"
+  >
+    <FontAwesomeIcon
+      border={false}
+      className=""
+      color="grey"
+      fixedWidth={false}
+      flip={null}
+      icon="circle"
+      inverse={false}
+      listItem={false}
+      mask={null}
+      pull={null}
+      pulse={false}
+      rotation={null}
+      size="xs"
+      spin={false}
+      swapOpacity={false}
+      symbol={false}
+      title=""
+      transform={null}
+    />
+  </Button>
+  <Button
+    class="rounded small "
+    fn={[Function]}
+    theme="dark"
+  >
+    <FontAwesomeIcon
+      border={false}
+      className=""
+      color="grey"
+      fixedWidth={false}
+      flip={null}
+      icon="moon"
+      inverse={false}
+      listItem={false}
+      mask={null}
+      pull={null}
+      pulse={false}
+      rotation={null}
+      size={null}
+      spin={false}
+      swapOpacity={false}
+      symbol={false}
+      title=""
+      transform={null}
+    />
+  </Button>
+  <Button
+    class="rounded small "
+    fn={[Function]}
+    theme="light"
+  >
+    <FontAwesomeIcon
+      border={false}
+      className=""
+      color="grey"
+      fixedWidth={false}
+      flip={null}
+      icon="sun"
+      inverse={false}
+      listItem={false}
+      mask={null}
+      pull={null}
+      pulse={false}
+      rotation={null}
+      size={null}
+      spin={false}
+      swapOpacity={false}
+      symbol={false}
+      title=""
+      transform={null}
+    />
+  </Button>
+</div>
+`;

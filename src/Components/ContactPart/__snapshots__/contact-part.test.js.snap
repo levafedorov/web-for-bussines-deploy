@@ -1,0 +1,439 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactPart component Check context Check with context 1`] = `
+<ContactPart>
+  <div
+    className="contact-page stretched transition-all light"
+    id="contacts"
+  >
+    <div
+      className="bg"
+    >
+      <div
+        className="contact-place"
+      >
+        <ContactTextIntro>
+          <div
+            className="contact-text-intro"
+          >
+            <h2>
+              Contact Us
+            </h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores mollitia vel sapiente natus assumenda soluta earum explicabo, excepturi fugit minus.
+            </p>
+          </div>
+        </ContactTextIntro>
+        <Form
+          categories={
+            Array [
+              "Fisrt",
+              "Second",
+              "Third",
+            ]
+          }
+          category="First"
+          cities={
+            Array [
+              "Praha",
+              "Brno",
+              "Plzen",
+              "Ostrava",
+              "Olomouc",
+            ]
+          }
+          city="Praha"
+          errObj={
+            Object {
+              "category": "",
+              "city": "",
+              "mail": "",
+              "message": "",
+              "name": "",
+              "phone": "",
+            }
+          }
+          mail=""
+          message=""
+          name=""
+          phone="+420"
+          setFormState={[Function]}
+        >
+          <form
+            action=""
+            className="contact-form"
+            method=""
+          >
+            <div
+              className="sides"
+            >
+              <div
+                className="left-side"
+              >
+                <div
+                  className="name-container container null"
+                >
+                  <input
+                    className="form-input"
+                    id="name"
+                    name="name"
+                    onChange={[Function]}
+                    placeholder="Name"
+                    type="text"
+                    value=""
+                  />
+                </div>
+                <div
+                  className="phone-container container null"
+                >
+                  <input
+                    className="form-input"
+                    id="phone-number"
+                    name="phone"
+                    onChange={[Function]}
+                    type="tel"
+                    value="+420"
+                  />
+                </div>
+              </div>
+              <div
+                className="right-side"
+              >
+                <div
+                  className="category-container container"
+                >
+                  <select
+                    className="form-input"
+                    id="category"
+                    name="category"
+                    onChange={[Function]}
+                    value="First"
+                  >
+                    <option
+                      key="Fisrt"
+                      value="Fisrt"
+                    >
+                      Fisrt
+                    </option>
+                    <option
+                      key="Second"
+                      value="Second"
+                    >
+                      Second
+                    </option>
+                    <option
+                      key="Third"
+                      value="Third"
+                    >
+                      Third
+                    </option>
+                  </select>
+                </div>
+                <div
+                  className="city-container container"
+                >
+                  <select
+                    id="city"
+                    name="city"
+                    onChange={[Function]}
+                    value="Praha"
+                  >
+                    <option
+                      key="Praha"
+                      value="Praha"
+                    >
+                      Praha
+                    </option>
+                    <option
+                      key="Brno"
+                      value="Brno"
+                    >
+                      Brno
+                    </option>
+                    <option
+                      key="Plzen"
+                      value="Plzen"
+                    >
+                      Plzen
+                    </option>
+                    <option
+                      key="Ostrava"
+                      value="Ostrava"
+                    >
+                      Ostrava
+                    </option>
+                    <option
+                      key="Olomouc"
+                      value="Olomouc"
+                    >
+                      Olomouc
+                    </option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div
+              className="mail-container container null"
+            >
+              <input
+                className="form-input"
+                id="mail"
+                name="mail"
+                onChange={[Function]}
+                placeholder="mail@mail"
+                type="mail"
+                value=""
+              />
+            </div>
+            <div
+              className="message-container container"
+            >
+              <textarea
+                className="form-input"
+                cols="30"
+                id="message"
+                name="message"
+                onChange={[Function]}
+                placeholder="...message"
+                rows="10"
+                value=""
+              />
+            </div>
+          </form>
+        </Form>
+        <Button
+          class="contact-part-btn"
+          fn={[Function]}
+        >
+          <button
+            className="btn contact-part-btn "
+            onClick={[Function]}
+            type="button"
+          >
+            Contact us
+          </button>
+        </Button>
+      </div>
+    </div>
+  </div>
+</ContactPart>
+`;
+
+exports[`ContactPart component Check context Check without context 1`] = `
+<ContactPart>
+  <div
+    className="contact-page stretched transition-all default"
+    id="contacts"
+  >
+    <div
+      className="bg"
+    >
+      <div
+        className="contact-place"
+      >
+        <ContactTextIntro>
+          <div
+            className="contact-text-intro"
+          >
+            <h2>
+              Contact Us
+            </h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores mollitia vel sapiente natus assumenda soluta earum explicabo, excepturi fugit minus.
+            </p>
+          </div>
+        </ContactTextIntro>
+        <Form
+          categories={
+            Array [
+              "Fisrt",
+              "Second",
+              "Third",
+            ]
+          }
+          category="First"
+          cities={
+            Array [
+              "Praha",
+              "Brno",
+              "Plzen",
+              "Ostrava",
+              "Olomouc",
+            ]
+          }
+          city="Praha"
+          errObj={
+            Object {
+              "category": "",
+              "city": "",
+              "mail": "",
+              "message": "",
+              "name": "",
+              "phone": "",
+            }
+          }
+          mail=""
+          message=""
+          name=""
+          phone="+420"
+          setFormState={[Function]}
+        >
+          <form
+            action=""
+            className="contact-form"
+            method=""
+          >
+            <div
+              className="sides"
+            >
+              <div
+                className="left-side"
+              >
+                <div
+                  className="name-container container null"
+                >
+                  <input
+                    className="form-input"
+                    id="name"
+                    name="name"
+                    onChange={[Function]}
+                    placeholder="Name"
+                    type="text"
+                    value=""
+                  />
+                </div>
+                <div
+                  className="phone-container container null"
+                >
+                  <input
+                    className="form-input"
+                    id="phone-number"
+                    name="phone"
+                    onChange={[Function]}
+                    type="tel"
+                    value="+420"
+                  />
+                </div>
+              </div>
+              <div
+                className="right-side"
+              >
+                <div
+                  className="category-container container"
+                >
+                  <select
+                    className="form-input"
+                    id="category"
+                    name="category"
+                    onChange={[Function]}
+                    value="First"
+                  >
+                    <option
+                      key="Fisrt"
+                      value="Fisrt"
+                    >
+                      Fisrt
+                    </option>
+                    <option
+                      key="Second"
+                      value="Second"
+                    >
+                      Second
+                    </option>
+                    <option
+                      key="Third"
+                      value="Third"
+                    >
+                      Third
+                    </option>
+                  </select>
+                </div>
+                <div
+                  className="city-container container"
+                >
+                  <select
+                    id="city"
+                    name="city"
+                    onChange={[Function]}
+                    value="Praha"
+                  >
+                    <option
+                      key="Praha"
+                      value="Praha"
+                    >
+                      Praha
+                    </option>
+                    <option
+                      key="Brno"
+                      value="Brno"
+                    >
+                      Brno
+                    </option>
+                    <option
+                      key="Plzen"
+                      value="Plzen"
+                    >
+                      Plzen
+                    </option>
+                    <option
+                      key="Ostrava"
+                      value="Ostrava"
+                    >
+                      Ostrava
+                    </option>
+                    <option
+                      key="Olomouc"
+                      value="Olomouc"
+                    >
+                      Olomouc
+                    </option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div
+              className="mail-container container null"
+            >
+              <input
+                className="form-input"
+                id="mail"
+                name="mail"
+                onChange={[Function]}
+                placeholder="mail@mail"
+                type="mail"
+                value=""
+              />
+            </div>
+            <div
+              className="message-container container"
+            >
+              <textarea
+                className="form-input"
+                cols="30"
+                id="message"
+                name="message"
+                onChange={[Function]}
+                placeholder="...message"
+                rows="10"
+                value=""
+              />
+            </div>
+          </form>
+        </Form>
+        <Button
+          class="contact-part-btn"
+          fn={[Function]}
+        >
+          <button
+            className="btn contact-part-btn "
+            onClick={[Function]}
+            type="button"
+          >
+            Contact us
+          </button>
+        </Button>
+      </div>
+    </div>
+  </div>
+</ContactPart>
+`;

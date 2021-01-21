@@ -1,0 +1,279 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gallery component Should width of GalleryItem change with amount of items width with 4 item 1`] = `
+<div
+  className="gallery"
+  id="gallery"
+>
+  <div
+    className="gallery-screen"
+  >
+    <div
+      className="screen"
+      style={
+        Object {
+          "transform": "translateX(-0%)",
+          "width": "400%",
+        }
+      }
+    >
+      <GalleryItem
+        active={true}
+        key="photo-0"
+        photo="photo"
+        title="photo"
+        width="25.00"
+      />
+      <GalleryItem
+        active={false}
+        key="photo-1"
+        photo="photo"
+        title="photo"
+        width="25.00"
+      />
+      <GalleryItem
+        active={false}
+        key="photo-2"
+        photo="photo"
+        title="photo"
+        width="25.00"
+      />
+      <GalleryItem
+        active={false}
+        key="photo-3"
+        photo="photo"
+        title="photo"
+        width="25.00"
+      />
+    </div>
+  </div>
+  <div
+    className="gallery-control"
+  >
+    <Positioner>
+      <Button
+        class="rounded square-left"
+        fn={[Function]}
+      />
+      <Button
+        class="rounded square-right"
+        fn={[Function]}
+      />
+    </Positioner>
+  </div>
+</div>
+`;
+
+exports[`Gallery component check Gallery component with props and default props Check with defaultProps 1`] = `
+<div
+  className="gallery"
+  id="gallery"
+>
+  <div
+    className="gallery-screen"
+  >
+    <div
+      className="screen"
+      style={
+        Object {
+          "transform": "translateX(-0%)",
+          "width": "100%",
+        }
+      }
+    >
+      <GalleryItem
+        active={true}
+        key="photo-0"
+        photo=""
+        title=""
+        width="100.00"
+      />
+    </div>
+  </div>
+  <div
+    className="gallery-control"
+  >
+    <Positioner>
+      <Button
+        class="rounded square-left"
+        fn={[Function]}
+      />
+      <Button
+        class="rounded square-right"
+        fn={[Function]}
+      />
+    </Positioner>
+  </div>
+</div>
+`;
+
+exports[`Gallery component check Gallery component with props and default props Check with props 1`] = `
+<div
+  className="gallery"
+  id="gallery"
+>
+  <div
+    className="gallery-screen"
+  >
+    <div
+      className="screen"
+      style={
+        Object {
+          "transform": "translateX(-0%)",
+          "width": "300%",
+        }
+      }
+    >
+      <GalleryItem
+        active={true}
+        key="photo-0"
+        photo="photo"
+        title="photo"
+        width="33.33"
+      />
+      <GalleryItem
+        active={false}
+        key="photo-1"
+        photo="photo"
+        title="photo"
+        width="33.33"
+      />
+      <GalleryItem
+        active={false}
+        key="photo-2"
+        photo="photo"
+        title="photo"
+        width="33.33"
+      />
+    </div>
+  </div>
+  <div
+    className="gallery-control"
+  >
+    <Positioner>
+      <Button
+        class="rounded square-left"
+        fn={[Function]}
+      />
+      <Button
+        class="rounded square-right"
+        fn={[Function]}
+      />
+    </Positioner>
+  </div>
+</div>
+`;
+
+exports[`Gallery component check Handlers and position check leftHandler 1`] = `
+<div
+  className="gallery"
+  id="gallery"
+>
+  <div
+    className="gallery-screen"
+  >
+    <div
+      className="screen"
+      style={
+        Object {
+          "transform": "translateX(-66.66%)",
+          "width": "300%",
+        }
+      }
+    >
+      <GalleryItem
+        active={false}
+        key="photo-0"
+        photo="photo"
+        title="photo"
+        width="33.33"
+      />
+      <GalleryItem
+        active={false}
+        key="photo-1"
+        photo="photo"
+        title="photo"
+        width="33.33"
+      />
+      <GalleryItem
+        active={true}
+        key="photo-2"
+        photo="photo"
+        title="photo"
+        width="33.33"
+      />
+    </div>
+  </div>
+  <div
+    className="gallery-control"
+  >
+    <Positioner>
+      <Button
+        class="rounded square-left"
+        fn={[Function]}
+      />
+      <Button
+        class="rounded square-right"
+        fn={[Function]}
+      />
+    </Positioner>
+  </div>
+</div>
+`;
+
+exports[`Gallery component check Handlers and position check rightHandler 1`] = `
+<div
+  className="gallery"
+  id="gallery"
+>
+  <div
+    className="gallery-screen"
+  >
+    <div
+      className="screen"
+      style={
+        Object {
+          "transform": "translateX(-33.33%)",
+          "width": "300%",
+        }
+      }
+    >
+      <GalleryItem
+        active={false}
+        key="photo-0"
+        photo="photo"
+        title="photo"
+        width="33.33"
+      />
+      <GalleryItem
+        active={true}
+        key="photo-1"
+        photo="photo"
+        title="photo"
+        width="33.33"
+      />
+      <GalleryItem
+        active={false}
+        key="photo-2"
+        photo="photo"
+        title="photo"
+        width="33.33"
+      />
+    </div>
+  </div>
+  <div
+    className="gallery-control"
+  >
+    <Positioner>
+      <Button
+        class="rounded square-left"
+        fn={[Function]}
+      />
+      <Button
+        class="rounded square-right"
+        fn={[Function]}
+      />
+    </Positioner>
+  </div>
+</div>
+`;

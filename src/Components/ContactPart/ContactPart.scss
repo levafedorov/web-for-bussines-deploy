@@ -1,0 +1,360 @@
+$white: white;
+$black: black;
+$dark-gray: #898d8e;
+$light-gary: #b7bcbe;
+$orange: #d7794a;
+$whiten-gray:#e8e6e6;
+$swampy: #1f3138;
+$red: rgba(179, 38, 38, 0.705);
+
+@mixin decorator($bg:none, $bord:none){
+   background-color: $bg;
+   border: $bord;
+}
+
+
+@mixin bg-image($bg){
+  background-image: url($bg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+@mixin flex($just:center, $al:center){
+   display: flex;
+     justify-content: $just; 
+     align-items: $al;
+  }
+
+  @mixin flex-self($just:center, $al:center){
+     justify-self: $just; 
+     align-self: $al;
+  }
+
+
+  @mixin myriad($size:1em, $height:1em, $weight:normal){
+    font-family: 'Myriad Pro Regular', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: $size;
+    line-height: $height;
+    font-weight: $weight;
+}
+
+@mixin baskerville($size:1em, $height:1em, $weight:normal){
+   font-family: 'Baskerville Regular', 'Times New Roman', Times, serif;
+   font-size: $size;
+   line-height: $height;
+   font-weight: $weight;
+}
+
+@mixin athelas($size:1em, $height:1em, $weight:normal){
+   font-family: 'Athelas Regular', Georgia, 'Times New Roman', Times, serif;
+   font-size: $size;
+   line-height: $height;
+   font-weight: $weight;
+}
+
+@mixin quatro($size:1em, $height:1em, $weight:normal){
+   font-family: 'Quatro Regular' 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: $size;
+   line-height: $height;
+   font-weight: $weight;
+}
+
+@mixin helvetica($size:1em, $height:1em, $weight:normal){
+   font-family: Helvetica, Arial, sans-serif;
+   font-size: $size;
+   line-height: $height;
+   font-weight: $weight;
+}
+
+@mixin padd-def($bot: 20px, $top: 20px, $left:0px, $right:0px){
+   padding-top: $top;
+   padding-bottom: $bot;
+   padding-left: $left;
+   padding-right: $right;
+}
+
+
+
+
+.contact-page{
+    
+    @include flex();
+    .bg{
+        @include flex(); 
+        width: 100%;
+        min-height: 1438px;
+    }
+    .contact-place{
+        @include flex();
+        flex-direction: column;
+        flex-basis: 1148px;
+        height: 1100px;
+        padding:0 10px;
+    
+    }
+   .contact-text-intro{
+       padding-top: 1px;
+       max-width: 848px;
+       height: 356px;
+       h2, p {
+           text-align: center;
+       }
+       h2{ @include athelas(2.3em, 2.3em);
+           text-transform: uppercase;}
+       p{ @include myriad(1em, 1.6em); 
+          margin-top: 60px;} 
+   }
+   .contact-form{
+       width: 100%;
+       box-sizing: border-box;
+       @include padd-def();
+       margin:0;
+       padding:0;
+       & > * {
+           width: 100%;
+       }
+
+        input, textarea, select{
+            box-sizing: border-box;
+            background-color:transparent;
+            @include myriad(22px, 25px);
+            padding-left: 20px;
+            padding-right: 20px;
+            outline: none;
+            border:none;
+            border-bottom: 1px solid black;
+            resize: none;
+            
+        }
+       @include flex(flex-start, flex-start);
+        flex-direction: column;
+       .sides{  
+        padding-bottom: 10px;
+        @include flex(center, stretch);
+        flex-wrap: wrap;
+
+        .left-side, .right-side{
+           @include flex(space-between, stretch);
+           flex-direction: column;
+           min-width:0px;
+           margin: 11px;
+           & > *{
+               margin-top: 20px;
+           }
+            input, select { 
+                box-sizing: border-box;
+                width: 100%;
+                height: 55px;
+            }
+        }
+         .left-side{
+             width: 48%;
+           .name-container{
+               #name{
+
+               }
+           }
+           .phone-container{
+            #phone-number{
+                
+            }
+        }
+         }
+         .right-side{
+            width: 48%;
+              .category-container{
+                  #category{
+
+                  }
+              }
+              .city-container{
+                #city{
+                    
+                }
+            }
+        }
+       }
+       .mail-container{
+        margin: 5px;
+        width: 99%;
+          #mail{ 
+            box-sizing: border-box;
+            width: 100%;
+            height: 55px;
+        }
+       }
+       .message-container{
+        margin: 5px;
+        width: 99%; 
+        margin-top: 20px;
+        height:193px;
+        #message{
+              height: 100%;
+              width: 100%;
+        }
+       }
+    .container.error input, .container.error select, .container.error textarea{
+        border-bottom: 1px solid $red;
+        transition: none;
+    }
+
+    .container.error{
+        color: $red;
+        position: relative;
+        transition: none;
+      .error-in-form{
+          position: absolute;
+          font-size: 14px;
+          line-height: 10px;
+          top: -17px;
+          transition: none;
+      }
+    }
+
+    .mail-container.error .error-in-form{
+        top:-14px;
+    }
+
+   }
+   .contact-part-btn{
+       align-self: flex-end;
+       margin-top: 100px;
+       @include myriad(0.8em, 0.8em);
+       border-radius: 2px;
+   }
+}
+
+
+
+
+
+
+
+
+
+.contact-page.default{
+     @include bg-image('../../images/backgrounds/forest-bg1.jpg');
+     .bg{background-color: transparentize($swampy, 0.1);}
+     .contact-text-intro h2{
+         color:$white;
+     }
+     input, textarea, select, p{
+         color: $light-gary;
+         &::placeholder{
+            color: $light-gary;
+        }
+     }
+     select option{
+         color: $black;
+     }
+
+     .contact-part-btn{background-color: $orange;
+                       color: $white;
+                      border:2px  solid darken($orange, 20%)}
+}
+
+
+.contact-page.dark{
+    background-color: $black;
+    .contact-text-intro h2{
+        color:$orange;
+    }
+    input, textarea, select, p{
+        color: $white;
+        &::placeholder{
+           color: $white;
+       }
+    }
+    select option{
+        color: $black;
+    }
+
+    .contact-part-btn{background-color: $orange;
+                      color: $white;
+                     border:2px solid $white;}
+    .contact-form {
+        input, textarea, select{
+            border-bottom:1px solid $orange;
+        }  
+    }                
+}
+
+
+.contact-page.light{
+    @include bg-image('../../images/backgrounds/forest-bg1.jpg');
+     .bg{background-color: transparentize($swampy, 0.1);}
+    .contact-text-intro h2{
+        color:$orange;
+    }
+    input, textarea, select, p{
+        color: $white;
+        &::placeholder{
+           color: $white;
+       }
+    }
+    select option{
+        color: $black;
+    }
+
+    .contact-part-btn{background-color: $orange;
+                      color: $white;
+                     border:2px solid $white;}
+    .contact-form {
+        input, textarea, select{
+            border-bottom:1px solid $orange;
+        }  
+    }                
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 900px){
+    .contact-page .contact-form .sides .left-side, .contact-page .contact-form .sides .right-side{
+        width: 80%;
+    }
+
+}
+
+
+
+
+
+
+ @media screen and (max-width: 500px) and (max-height: 700px){
+    .contact-page{
+    .bg{min-height: 1000px;}
+    .contact-text-intro{
+        height: 300px;
+        p{ margin-top: 0px;}
+    }
+    .contact-form .sides {
+        .right-side, .left-side{
+            margin:0;
+        }
+        .left-side input,  .left-side select, 
+        .right-side input,  .right-side select{
+        height: 25px;
+        }
+    }
+    .contact-form .mail-container #mail{
+        height: 25px;
+    }
+
+    .contact-part-btn{
+        margin-top: 20px;
+        height: 50px;
+        width: 150px;}
+
+    }
+   
+    }
+    
+  
+ 

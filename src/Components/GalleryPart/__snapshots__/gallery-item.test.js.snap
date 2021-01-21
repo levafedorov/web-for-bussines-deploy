@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GalleryItem component Check GalleryItem props Check with defaultProps 1`] = `
+<div
+  className="gallery-item"
+  style={
+    Object {
+      "backgroundImage": "url(\\"\\")",
+      "width": "0%",
+    }
+  }
+>
+  <div
+    className="title"
+    style={
+      Object {
+        "top": 0,
+      }
+    }
+  >
+    <h3>
+      No photo
+    </h3>
+  </div>
+</div>
+`;
+
+exports[`GalleryItem component Check GalleryItem props Check with props 1`] = `
+<div
+  className="gallery-item"
+  style={
+    Object {
+      "backgroundImage": "url(\\"fake url\\")",
+      "width": "100%",
+    }
+  }
+>
+  <div
+    className="title"
+    style={
+      Object {
+        "top": 0,
+      }
+    }
+  >
+    <h3>
+      fake title
+    </h3>
+  </div>
+</div>
+`;

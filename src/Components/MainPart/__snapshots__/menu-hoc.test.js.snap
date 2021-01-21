@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HOCMenu component Should HOC renders wrapped elem 1`] = `
+<mockConstructor
+  position={
+    Object {
+      "position": "relative",
+      "top": 0,
+    }
+  }
+/>
+`;

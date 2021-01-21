@@ -1,0 +1,219 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AboutUsPart component Check context of AboutUsPart component Check default contenxt 1`] = `
+<AboutAsPart>
+  <div
+    className="about-as-part stretched transition-all default"
+    id="testimonials"
+  >
+    <Positioner>
+      <div
+        className="positioner"
+      >
+        <ImagePlace>
+          <section
+            className="image-place"
+          />
+        </ImagePlace>
+        <AboutUsPlace>
+          <section
+            className="about-us-place"
+          >
+            <AboutUsArticle>
+              <article>
+                <h2>
+                  About us
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque aliquam qui saepe quaerat quos, unde sapiente aliquid nobis architecto praesentium?
+                </p>
+              </article>
+            </AboutUsArticle>
+            <Adventages>
+              <div
+                className="adventages"
+              >
+                <AdventageItem
+                  key="key-0"
+                  name="friendly team"
+                >
+                  <div
+                    className="adventage-item"
+                  >
+                    <div
+                      className="item-image"
+                      style={
+                        Object {
+                          "backgroundImage": "url(/photos/friendly-team.jpg)",
+                        }
+                      }
+                    />
+                    <div
+                      className="adventage"
+                    >
+                      friendly team
+                    </div>
+                  </div>
+                </AdventageItem>
+                <AdventageItem
+                  key="key-1"
+                  name="involved"
+                >
+                  <div
+                    className="adventage-item"
+                  >
+                    <div
+                      className="item-image"
+                      style={
+                        Object {
+                          "backgroundImage": "url(/photos/involved.jpg)",
+                        }
+                      }
+                    />
+                    <div
+                      className="adventage"
+                    >
+                      involved
+                    </div>
+                  </div>
+                </AdventageItem>
+                <AdventageItem
+                  key="key-2"
+                  name="assistance"
+                >
+                  <div
+                    className="adventage-item"
+                  >
+                    <div
+                      className="item-image"
+                      style={
+                        Object {
+                          "backgroundImage": "url(/photos/assistance.jpg)",
+                        }
+                      }
+                    />
+                    <div
+                      className="adventage"
+                    >
+                      assistance
+                    </div>
+                  </div>
+                </AdventageItem>
+              </div>
+            </Adventages>
+          </section>
+        </AboutUsPlace>
+      </div>
+    </Positioner>
+  </div>
+</AboutAsPart>
+`;
+
+exports[`AboutUsPart component Check context of AboutUsPart component Check with contenxt 1`] = `
+<AboutAsPart>
+  <div
+    className="about-as-part stretched transition-all light"
+    id="testimonials"
+  >
+    <Positioner>
+      <div
+        className="positioner"
+      >
+        <ImagePlace>
+          <section
+            className="image-place"
+          />
+        </ImagePlace>
+        <AboutUsPlace>
+          <section
+            className="about-us-place"
+          >
+            <AboutUsArticle>
+              <article>
+                <h2>
+                  About us
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque aliquam qui saepe quaerat quos, unde sapiente aliquid nobis architecto praesentium?
+                </p>
+              </article>
+            </AboutUsArticle>
+            <Adventages>
+              <div
+                className="adventages"
+              >
+                <AdventageItem
+                  key="key-0"
+                  name="friendly team"
+                >
+                  <div
+                    className="adventage-item"
+                  >
+                    <div
+                      className="item-image"
+                      style={
+                        Object {
+                          "backgroundImage": "url(/photos/friendly-team.jpg)",
+                        }
+                      }
+                    />
+                    <div
+                      className="adventage"
+                    >
+                      friendly team
+                    </div>
+                  </div>
+                </AdventageItem>
+                <AdventageItem
+                  key="key-1"
+                  name="involved"
+                >
+                  <div
+                    className="adventage-item"
+                  >
+                    <div
+                      className="item-image"
+                      style={
+                        Object {
+                          "backgroundImage": "url(/photos/involved.jpg)",
+                        }
+                      }
+                    />
+                    <div
+                      className="adventage"
+                    >
+                      involved
+                    </div>
+                  </div>
+                </AdventageItem>
+                <AdventageItem
+                  key="key-2"
+                  name="assistance"
+                >
+                  <div
+                    className="adventage-item"
+                  >
+                    <div
+                      className="item-image"
+                      style={
+                        Object {
+                          "backgroundImage": "url(/photos/assistance.jpg)",
+                        }
+                      }
+                    />
+                    <div
+                      className="adventage"
+                    >
+                      assistance
+                    </div>
+                  </div>
+                </AdventageItem>
+              </div>
+            </Adventages>
+          </section>
+        </AboutUsPlace>
+      </div>
+    </Positioner>
+  </div>
+</AboutAsPart>
+`;

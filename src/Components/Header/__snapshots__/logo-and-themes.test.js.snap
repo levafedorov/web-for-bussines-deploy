@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should logo render 1`] = `
+<section
+  className="logo-and-themes"
+>
+  <Positioner>
+    <div
+      className="logo"
+    >
+      YOURCOMPANYNAME
+    </div>
+    <ThemeBar />
+  </Positioner>
+</section>
+`;

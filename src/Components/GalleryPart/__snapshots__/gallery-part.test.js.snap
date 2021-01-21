@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gallery component Check different context 1`] = `
+<div
+  className="gallery-part stretched transition-all default"
+  id="portfolio"
+>
+  <GalleryIntro />
+  <Gallery
+    photos={
+      Array [
+        Object {
+          "photo": "/photos/photo-1.jpg",
+          "title": "hello there",
+        },
+        Object {
+          "photo": "/photos/photo-2.jpg",
+          "title": "hello there",
+        },
+        Object {
+          "photo": "/photos/photo-3.jpg",
+          "title": "hello there",
+        },
+      ]
+    }
+  />
+</div>
+`;
+
+exports[`Gallery component Check different context 2`] = `
+<div
+  className="gallery-part stretched transition-all light"
+  id="portfolio"
+>
+  <GalleryIntro />
+  <Gallery
+    photos={
+      Array [
+        Object {
+          "photo": "/photos/photo-1.jpg",
+          "title": "hello there",
+        },
+        Object {
+          "photo": "/photos/photo-2.jpg",
+          "title": "hello there",
+        },
+        Object {
+          "photo": "/photos/photo-3.jpg",
+          "title": "hello there",
+        },
+      ]
+    }
+  />
+</div>
+`;

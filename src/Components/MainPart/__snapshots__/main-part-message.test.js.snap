@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CompactSlidingMenuTest component Should components render 1`] = `
+<div
+  className="main-part-message"
+>
+  <h1>
+    Welcome to
+  </h1>
+  <p>
+    Yourcompanyname
+  </p>
+</div>
+`;

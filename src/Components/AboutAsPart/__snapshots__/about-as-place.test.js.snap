@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AboutUsPlace component Should AboutUsPlace component render 1`] = `
+<section
+  className="about-us-place"
+>
+  <AboutUsArticle />
+  <Adventages />
+</section>
+`;

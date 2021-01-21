@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CompactSlidingMenuTest component Should components prop's to be working 1`] = `
+<CompactSlidingMenu
+  items={
+    Object {
+      "first": "first",
+      "second": "second",
+      "third": "third",
+    }
+  }
+>
+  <nav
+    className="main-menu compact"
+  >
+    <ul
+      className="menu-list"
+    >
+      <li
+        key="first"
+      >
+        <a
+          href="first"
+        >
+          first
+        </a>
+      </li>
+      <li
+        key="second"
+      >
+        <a
+          href="second"
+        >
+          second
+        </a>
+      </li>
+      <li
+        key="third"
+      >
+        <a
+          href="third"
+        >
+          third
+        </a>
+      </li>
+    </ul>
+    <button
+      className="menu-down-btn"
+      type="button"
+    >
+      ↓
+    </button>
+  </nav>
+</CompactSlidingMenu>
+`;
+
+exports[`CompactSlidingMenuTest component Should components prop's to be working 2`] = `
+<CompactSlidingMenu
+  items={
+    Object {
+      "about": "about",
+      "home": "home",
+      "services": "services",
+    }
+  }
+>
+  <nav
+    className="main-menu compact"
+  >
+    <ul
+      className="menu-list"
+    >
+      <li
+        key="home"
+      >
+        <a
+          href="home"
+        >
+          home
+        </a>
+      </li>
+      <li
+        key="about"
+      >
+        <a
+          href="about"
+        >
+          about
+        </a>
+      </li>
+      <li
+        key="services"
+      >
+        <a
+          href="services"
+        >
+          services
+        </a>
+      </li>
+    </ul>
+    <button
+      className="menu-down-btn"
+      type="button"
+    >
+      ↓
+    </button>
+  </nav>
+</CompactSlidingMenu>
+`;

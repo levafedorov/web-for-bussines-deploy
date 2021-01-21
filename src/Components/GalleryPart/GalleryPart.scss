@@ -1,0 +1,285 @@
+$white: white;
+$black: black;
+$dark-gray: #898d8e;
+$light-gary: #b7bcbe;
+$orange: #d7794a;
+$whiten-gray:#e8e6e6;
+$swampy: #1f3138;
+
+
+@mixin decorator($bg:none, $bord:none){
+   background-color: $bg;
+   border: $bord;
+}
+
+
+@mixin bg-image($bg){
+  background-image: url($bg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+@mixin flex($just:center, $al:center){
+   display: flex;
+     justify-content: $just; 
+     align-items: $al;
+  }
+
+  @mixin flex-self($just:center, $al:center){
+     justify-self: $just; 
+     align-self: $al;
+  }
+
+
+  @mixin myriad($size:1em, $height:1em, $weight:normal){
+    font-family: 'Myriad Pro Regular', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: $size;
+    line-height: $height;
+    font-weight: $weight;
+}
+
+@mixin baskerville($size:1em, $height:1em, $weight:normal){
+   font-family: 'Baskerville Regular', 'Times New Roman', Times, serif;
+   font-size: $size;
+   line-height: $height;
+   font-weight: $weight;
+}
+
+@mixin athelas($size:1em, $height:1em, $weight:normal){
+   font-family: 'Athelas Regular', Georgia, 'Times New Roman', Times, serif;
+   font-size: $size;
+   line-height: $height;
+   font-weight: $weight;
+}
+
+@mixin quatro($size:1em, $height:1em, $weight:normal){
+   font-family: 'Quatro Regular' 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: $size;
+   line-height: $height;
+   font-weight: $weight;
+}
+
+@mixin helvetica($size:1em, $height:1em, $weight:normal){
+   font-family: Helvetica, Arial, sans-serif;
+   font-size: $size;
+   line-height: $height;
+   font-weight: $weight;
+}
+
+@mixin padd-def($bot: 20px, $top: 20px, $left:0px, $right:0px){
+   padding-top: $top;
+   padding-bottom: $bot;
+   padding-left: $left;
+   padding-right: $right;
+}
+
+
+
+.gallery-part{
+    min-height: 1450px;
+    @include flex(flex-start, stretch);
+    flex-direction: column;
+
+
+.gallery-intro{
+   height: 604px;
+   padding: 20px;
+   @include flex();
+   flex-direction: column;
+ h2, p {
+    max-width: 1518px;
+    margin-top: 20px;
+    text-align: center;
+ }
+ h2{
+   margin-bottom: 40px;
+   text-transform: uppercase;
+   @include athelas(2.3em, 2.3em);
+ }
+ p{
+     @include athelas(1em, 1em);
+ }
+}
+
+.gallery{
+    width: 100%;
+    height: 840px;
+}
+
+.gallery-screen{
+   overflow: hidden;
+   height: 90%;
+   width: 100%;
+   position: relative;
+ .screen{
+    &, .title {
+       transition-property: all;
+       transition-duration: 0.5s;
+       transition-timing-function: ease;
+    }
+    position: absolute;
+    height: 100%;
+    top:0;
+    left:0;
+     @include flex(flex-start, stretch);
+    .gallery-item{
+       background-repeat: no-repeat;
+       background-size: cover;
+       height:100%;
+       @include flex(flex-end, flex-end);
+       .title{
+          text-transform: uppercase;
+          padding: 20px;
+          position: relative;
+          margin-bottom:50px;
+          top:150px;
+       }
+    }
+    .gallery-item.active{
+       .title{
+          top:0;
+       }
+    }
+ }
+}
+
+.gallery-control{
+   height: 10%;
+   width: 100%;
+   @include flex();
+  .positioner{
+     padding: 0 10px;
+     height: 100%;
+     @include flex(space-between, center);
+  }
+}
+
+}
+
+
+
+.gallery-part.default{
+   .gallery-intro {
+      h2{
+         color: $orange;
+      }
+   }
+    .gallery-control{
+      background-color: $whiten-gray;
+      .btn{
+         &:before{
+            border-color: $orange;
+         }
+         box-shadow: 0 0 0 2px $orange;
+         &:hover{
+            background-color: $orange;
+            &:before{
+               border-color: $white;
+            }
+         }
+      }
+   }
+    .gallery-screen{
+      background: rgb(254,254,254);
+background: linear-gradient(90deg, rgba(254,254,254,1) 25%, rgba(238,238,238,1) 25%,
+ rgba(181,181,186,1) 50%, rgba(151,151,154,1) 50%,
+ rgba(142,142,145,1) 50%, rgba(60,60,62,1) 75%, rgba(45,44,44,1) 75%);
+
+ 
+   }
+}
+
+
+
+.gallery-part.dark{
+   background-color: $black;
+   .gallery-intro {
+      h2{
+         color: $orange;
+      }
+      p{
+         color:$white;
+      }
+   }
+    .gallery-control{
+      background-color: $black;
+      .btn{
+         &:before{
+            border-color: $orange;
+         }
+         box-shadow: 0 0 0 2px $orange;
+         &:hover{
+            background-color: $orange;
+            &:before{
+               border-color: $white;
+            }
+         }
+      }
+   }
+    
+}
+
+
+.gallery-part.light{
+   .gallery-intro {
+      h2{
+         color: $orange;
+      }
+   }
+    .gallery-control{
+      box-shadow: inset 0 0 0 2px $swampy;
+      .btn{
+         &:before{
+            border-color: $orange;
+         }
+         box-shadow: 0 0 0 2px $orange;
+         &:hover{
+            background-color: $orange;
+            &:before{
+               border-color: $white;
+            }
+         }
+      }
+   }
+    
+}
+
+
+
+
+
+@media screen and (max-width: 900px){
+   .gallery-part .gallery{
+      height: 600px;
+   }
+}
+
+
+
+
+@media screen and (max-width: 500px) and (max-height: 700px){
+   .gallery-part {
+      min-height: 800px;
+      .gallery{
+      height: 400px;
+      .btn{width: 25px; height: 25px;}
+      }
+      .gallery-intro{
+         height: 400px;
+      }
+      .gallery-intro {
+         h2{
+            margin-bottom: 20px;
+         }
+         p{
+            margin-top: 0px;
+         }
+      }
+   }
+   
+
+   }
+  
+   

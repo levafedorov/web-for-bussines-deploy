@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Adventages component Should component render 1`] = `
+<div
+  className="adventages"
+>
+  <AdventageItem
+    key="key-0"
+    name="friendly team"
+  />
+  <AdventageItem
+    key="key-1"
+    name="involved"
+  />
+  <AdventageItem
+    key="key-2"
+    name="assistance"
+  />
+</div>
+`;

@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SlidingMenu component Should components prop's to be working 1`] = `
+<SlidingMenu
+  items={
+    Object {
+      "first": "first",
+      "second": "second",
+      "third": "third",
+    }
+  }
+>
+  <nav
+    className="main-menu sliding"
+  >
+    <Positioner>
+      <div
+        className="positioner"
+      >
+        <ul
+          className="menu-list"
+        >
+          <div
+            className="anim-elem"
+            onTransitionEnd={[Function]}
+            style={
+              Object {
+                "transform": "translateX(0px)",
+                "width": "nullpx",
+              }
+            }
+          />
+          <li
+            key="first"
+          >
+            <a
+              className="link-0 active"
+              href="first"
+              onClick={[Function]}
+            >
+              first
+            </a>
+          </li>
+          <li
+            key="second"
+          >
+            <a
+              className="link-1 null"
+              href="second"
+              onClick={[Function]}
+            >
+              second
+            </a>
+          </li>
+          <li
+            key="third"
+          >
+            <a
+              className="link-2 null"
+              href="third"
+              onClick={[Function]}
+            >
+              third
+            </a>
+          </li>
+        </ul>
+      </div>
+    </Positioner>
+  </nav>
+</SlidingMenu>
+`;
+
+exports[`SlidingMenu component Should components prop's to be working 2`] = `
+<SlidingMenu
+  items={
+    Object {
+      "about": "about",
+      "home": "home",
+      "services": "services",
+    }
+  }
+>
+  <nav
+    className="main-menu sliding"
+  >
+    <Positioner>
+      <div
+        className="positioner"
+      >
+        <ul
+          className="menu-list"
+        >
+          <div
+            className="anim-elem"
+            onTransitionEnd={[Function]}
+            style={
+              Object {
+                "transform": "translateX(0px)",
+                "width": "nullpx",
+              }
+            }
+          />
+          <li
+            key="home"
+          >
+            <a
+              className="link-0 active"
+              href="home"
+              onClick={[Function]}
+            >
+              home
+            </a>
+          </li>
+          <li
+            key="about"
+          >
+            <a
+              className="link-1 null"
+              href="about"
+              onClick={[Function]}
+            >
+              about
+            </a>
+          </li>
+          <li
+            key="services"
+          >
+            <a
+              className="link-2 null"
+              href="services"
+              onClick={[Function]}
+            >
+              services
+            </a>
+          </li>
+        </ul>
+      </div>
+    </Positioner>
+  </nav>
+</SlidingMenu>
+`;
