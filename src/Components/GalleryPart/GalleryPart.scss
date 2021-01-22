@@ -127,6 +127,7 @@ $swampy: #1f3138;
     .gallery-item{
        background-repeat: no-repeat;
        background-size: cover;
+       background-position: center;
        height:100%;
        @include flex(flex-end, flex-end);
        .title{

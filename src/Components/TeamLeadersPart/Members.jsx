@@ -30,7 +30,7 @@ export default function Members(props){
         return <section className="members">
           {membersList.map((item, i)=> 
           <Member name={`${item.name} ${item.surname}`} 
-          about={item.about} link={`/photos/photo-${item.name}.jpg`} 
+          about={item.about} link={`${process.env.PUBLIC_URL}/photos/photo-${item.name}.jpg`} 
           key={`${item}-${i}`}/>)}
         </section>
 }

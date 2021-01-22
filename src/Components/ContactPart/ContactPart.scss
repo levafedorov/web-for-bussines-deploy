@@ -308,7 +308,16 @@ $red: rgba(179, 38, 38, 0.705);
     }                
 }
 
-
+.contact-part-btn{
+    transition: all .3s;
+    &:hover{
+        filter:brightness(1.3);    
+    }
+    &:active{
+        box-shadow: inset 0 0 6px black;
+        filter:none;
+    }
+}
 
 
 

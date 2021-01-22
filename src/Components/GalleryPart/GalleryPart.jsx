@@ -6,9 +6,9 @@ import './GalleryPart.scss';
 import PropTypes, { array, arrayOf, objectOf } from 'prop-types';
 
 
-export const photos = [{photo:'/photos/photo-1.jpg', title:"hello there"}, 
-{photo:'/photos/photo-2.jpg', title:"hello there"},
-{photo:'/photos/photo-3.jpg', title:"hello there"}];
+export const photos = [{photo: process.env.PUBLIC_URL + '/photos/photo-1.jpg', title:"hello there"}, 
+{photo: process.env.PUBLIC_URL + '/photos/photo-2.jpg', title:"hello there"},
+{photo: process.env.PUBLIC_URL + '/photos/photo-3.jpg', title:"hello there"}];
 
 
 

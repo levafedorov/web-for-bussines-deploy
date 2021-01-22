@@ -7,7 +7,7 @@ export default function AdventageItem(props){
      
 
    const backgroundImg = {
-       backgroundImage : `url(/photos/${props.name.trim().replace(' ', '-')}.jpg)`
+       backgroundImage : `url(${process.env.PUBLIC_URL}/photos/${props.name.trim().replace(' ', '-')}.jpg)`
    }
    
     return <div className="adventage-item">
