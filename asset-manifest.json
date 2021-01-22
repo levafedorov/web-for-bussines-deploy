@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/web-for-bussines-deploy/static/css/main.cbc1e3db.chunk.css",
+    "main.js": "/web-for-bussines-deploy/static/js/main.847e2b15.chunk.js",
+    "main.js.map": "/web-for-bussines-deploy/static/js/main.847e2b15.chunk.js.map",
+    "runtime-main.js": "/web-for-bussines-deploy/static/js/runtime-main.7435057e.js",
+    "runtime-main.js.map": "/web-for-bussines-deploy/static/js/runtime-main.7435057e.js.map",
+    "static/js/2.0fe3b355.chunk.js": "/web-for-bussines-deploy/static/js/2.0fe3b355.chunk.js",
+    "static/js/2.0fe3b355.chunk.js.map": "/web-for-bussines-deploy/static/js/2.0fe3b355.chunk.js.map",
+    "index.html": "/web-for-bussines-deploy/index.html",
+    "static/css/main.cbc1e3db.chunk.css.map": "/web-for-bussines-deploy/static/css/main.cbc1e3db.chunk.css.map",
+    "static/js/2.0fe3b355.chunk.js.LICENSE.txt": "/web-for-bussines-deploy/static/js/2.0fe3b355.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/web-for-bussines-deploy/static/media/helvetica-rounded-bold-5871d05ead8de.9e66c0ca.woff",
+    "static/media/AboutAsPart.scss": "/web-for-bussines-deploy/static/media/animals-wallpaper.5a456117.jpg",
+    "static/media/StatisticPart.scss": "/web-for-bussines-deploy/static/media/wallpaper.ab304b3d.png",
+    "static/media/ContactPart.scss": "/web-for-bussines-deploy/static/media/forest-bg1.1c30b352.jpg",
+    "static/media/MainPart.scss": "/web-for-bussines-deploy/static/media/main-screen.7c0d4b17.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7435057e.js",
+    "static/js/2.0fe3b355.chunk.js",
+    "static/css/main.cbc1e3db.chunk.css",
+    "static/js/main.847e2b15.chunk.js"
+  ]
+}
